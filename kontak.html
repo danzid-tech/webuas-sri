@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontak | Pangkas rambut PRC Premiun Quality.</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#gone").click(function () {
+          $("#form").toggle();
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="wrapper-sriwidiastuti">
@@ -27,6 +34,7 @@
 
       <main class="content">
         <div class="content-area-sriwidiastuti" style="width: 100%">
+              <button id="gone">Sembunyikan / Tampilkan Form</button><br /><br />
           <div class="konten-sriwidiastuti">
             <form action="index.html" method="post" id="form">
               Nama <br /><br />
@@ -39,20 +47,38 @@
               <input type="submit" value="KIRIM" style="width: 60px; height: 30px" />
             </form>
           </div>
-          <button id="btnhilang">Sembunyikan / Tampilkan Form</button><br /><br />
+      
         </div>
       </main>
 
-      <section class="sisi-sriwidiastuti">
-        <div class="sisi-sriwidiastuti-area">
+       <section class="sisi-sriwidiastuti">
+      
+          <br />
+           <div class="sisi-sriwidiastuti-area">
           <div class="about-sriwidiastuti">
-            <h1>Profil Pembuat</h1>
-            <br />
-            <img src="./img/profile.jpeg" alt="" />
-            <h4>Sri Widiastuti</h4>
-            <span>NPM : 432007006200037</span>
+            <h1>Instagram Kami</h1><br />
+            <img src="./instagram.webp" alt="" />
+            <h4>@Prc_83</h4>
+            </div>
+          </div>
+          <br />
+           <div class="sisi-sriwidiastuti-area">
+          <div class="about-sriwidiastuti">
+            <h1>Facebook</h1><br />
+            <img src="./facebook.webp" alt="" />
+            <h4>Fariz presiden republic cukur</h4>
+            
           </div>
         </div>
+		<br />
+           <a href="https://wa.me/081573303644"><div class="sisi-sriwidiastuti-area">
+          <div class="about-sriwidiastuti">
+            <h1>Whatsapp</h1><br />
+            <img src="./wa.png" alt="" />
+            <h4>081573303644</h4>
+            
+          </div>
+        </div></a>
       </section>
 
       <footer>
